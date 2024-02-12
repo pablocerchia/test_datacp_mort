@@ -1,0 +1,14 @@
+[runner]
+fastReruns = true
+
+[server]
+runOnSave = true
+headless = true
+enableStaticServing = true
+
+[theme]
+primaryColor="#54045c"
+backgroundColor="#ffffff"
+secondaryBackgroundColor="#ffffff"
+textColor="#31333F"
+font="sans serif"
