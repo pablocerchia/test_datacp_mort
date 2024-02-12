@@ -9,6 +9,6 @@ enableStaticServing = true
 [theme]
 primaryColor="#ac94c4"
 backgroundColor="#ffffff"
-secondaryBackgroundColor="#ac94c4"
+secondaryBackgroundColor="#ffffff"
 textColor="#31333F"
 font="sans serif"
