@@ -2,12 +2,13 @@
     --text: #31333f;
 
     /* main color */
-    --main-lightest: #DCEEFF;
-    --main-lighter: #B5DCFF;
-    --main-light: #8DC3F3;
-    --main-dark: #79BDF8;
-    --main-darker: #1682E0;
-    --main-darkest: #044E8E;
+    --main-lightest: #54045c;
+    --main-lighter: #54045c;
+    --main-light: #54045c;
+    --main-dark: #54045c;
+    --main-darker: #54045c;
+    --main-darkest: #54045c;
+
 
     /* red */
     --red-lighter: #ff4b4b;
