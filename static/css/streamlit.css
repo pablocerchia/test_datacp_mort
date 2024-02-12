@@ -48,7 +48,7 @@ h4 span span {
 
 /* forms */
 [data-testid="stForm"] {
-    background-color: var(--main-light);
+    background-color: var(--main-lightest);
     border: none;
     box-shadow: 5px 5px 0px 1px var(--opa-lighter);
     border-radius: 0.5rem 0 0 0;
