@@ -26,7 +26,7 @@ def main(fragment, params, static_attr):
     #user = st_user()
 
     # I automatically refresh the page every 2 minutes [OPTIONAL]
-    st_autorefresh(interval=2 * 60 * 1000, key="main-refresh")
+    #st_autorefresh(interval=2 * 60 * 1000, key="main-refresh")
 
     # ---- STYLE
     # local CSS: main style - version number is used to ensure that the client
