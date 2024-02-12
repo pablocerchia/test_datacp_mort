@@ -23,10 +23,10 @@ st.set_page_config(
 def main(fragment, params, static_attr):
 
     # This is the custom user I used to auth in the app
-    #user = st_user()
+    user = st_user()
 
     # I automatically refresh the page every 2 minutes [OPTIONAL]
-    #st_autorefresh(interval=2 * 60 * 1000, key="main-refresh")
+    st_autorefresh(interval=2 * 60 * 1000, key="main-refresh")
 
     # ---- STYLE
     # local CSS: main style - version number is used to ensure that the client
@@ -43,26 +43,26 @@ def main(fragment, params, static_attr):
     set_direct_page_link(app_menu, params)
 
     # ---- LOGIN
-    # if not user:
-    #     # custom login CSS and LOGO
-    #     login_css(get_version())
-    #     image("app/static/images/logo.png", "logo")
+    if not user:
+        # custom login CSS and LOGO
+        login_css(get_version())
+        image("app/static/images/logo.png", "logo")
 
-    #     # simple login form
-    #     login_form = st.form("login-form", clear_on_submit=True)
-    #     login_form.info("Put **any information** you want to login!", icon="ℹ️")
-    #     username = login_form.text_input("Mail", placeholder="Mail")
-    #     password = login_form.text_input(
-    #         "Password",
-    #         type="password",
-    #         placeholder="Password",
-    #         autocomplete="current-password",
-    #     )
-    #     if login_form.form_submit_button("Login 👤", use_container_width=True):
-    #         if check_login(username, password, component=login_form):
-    #             skip_fragment()
-    #             st.rerun()
-    #     return
+        # simple login form
+        login_form = st.form("login-form", clear_on_submit=True)
+        login_form.info("Put **any information** you want to login!", icon="ℹ️")
+        username = login_form.text_input("Mail", placeholder="Mail")
+        password = login_form.text_input(
+            "Password",
+            type="password",
+            placeholder="Password",
+            autocomplete="current-password",
+        )
+        if login_form.form_submit_button("Login 👤", use_container_width=True):
+            if check_login(username, password, component=login_form):
+                skip_fragment()
+                st.rerun()
+        return
 
     # ---- MENU
     # this is how the menu and all the pages are managed within the app.
