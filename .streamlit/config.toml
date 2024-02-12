@@ -7,8 +7,8 @@ headless = true
 enableStaticServing = true
 
 [theme]
-primaryColor="#54045c"
+primaryColor="#ac94c4"
 backgroundColor="#ffffff"
-secondaryBackgroundColor="#ffffff"
+secondaryBackgroundColor="#ac94c4"
 textColor="#31333F"
 font="sans serif"
