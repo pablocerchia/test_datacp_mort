@@ -1,0 +1,29 @@
++1 Main : poll @ profile
+
+* Inicio : poll @ profile
+
+* Elecciones : poll
+	- Resultados generales : how_to_vote @ paneo-general
+	- Busqueda Avanzada : query_stats @ component-form
+	- Resultados por provincia : check_box @ resultados-provincia
+	- Resultados por region : south_america @ resultados-region
+	- Participacion : groups @ resultados-participacion
+	- Voto en blanco : ballot @ resultados-votoblanco
+	- Extra : area_chart @ component-extra
+
+* Archivo : archive
+	- Resultados : hardware @ hero-thor
+	- Niveles de participacion : flash_on @ hero-flash
+	- Niveles de voto en blanco : local_police @ hero-cap
+	- Niveles de voto nulo : ramen_dining @ hero-goku
+	- Geojson's : back_hand @ hero-netero
+	-? Blue Beetle : bug_report @ hero-blue-beetle
+	-/ Invisible Man : visibility_off @ hero-invisible-man
+
+* Contacto : poll @ paneo-general
+
+*! Super Admin : diamond
+	- Admins : admin_panel_settings @ admins-list
+
++ Settings @ profile-settings
++ Notify @ profile-notifications
